@@ -423,6 +423,8 @@ elif page == "Power BI Dashboard":
         """
     )
 
+
+    
     powerbi_url = "https://app.powerbi.com/view?r=eyJrIjoiNTFiNzAxZjAtOTc5MS00NmNmLTgzZWEtOTVhZDljODBmNTU4IiwidCI6Ijk4MDA5ZTA5LTM5ZTktNGRkNi05OTdjLWQ3MDdlMTRmNGZiYyJ9"
     st.components.v1.iframe(
         powerbi_url,
