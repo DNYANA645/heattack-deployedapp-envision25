@@ -119,7 +119,7 @@ def apply_custom_theme():
     )
 
  # Load and display the image
-image = Image.open("/content/h1.jpg")
+image = Image.open("h1.jpg")
 st.image(image, caption="Your Image",use_container_width=True)
 def get_gemini_response(prompt):
     try:
@@ -434,7 +434,7 @@ elif page == "Power BI Dashboard":
 elif page == "About App & Modules":
     # About App Section
     st.header("About This Application")
-    image = Image.open("/content/hq720.jpg")
+    image = Image.open("hq720.jpg")
     st.image(image, caption="Your Image",use_container_width=True)
     st.write("""
      HEARTLY is an AI-based healthcare support system designed to predict the risk of heart disease using clinical and lifestyle parameters.
@@ -459,7 +459,7 @@ The dataset was collected through a combination of manual curation and publicly 
 
     # About Modules Section
     st.subheader("Modules Used")
-    image = Image.open("/content/istockphoto-1515913422-612x612.jpg")
+    image = Image.open("istockphoto-1515913422-612x612.jpg")
     st.image(image, caption="Your Image",use_container_width=True)
     st.write("""
     - RMultiple ML algorithms were tested and compared.
@@ -476,7 +476,7 @@ The model is capable of real-time predictions through a deployed web interface.
 elif page == "Symptoms Information":
     # Symptoms Information Section
     st.header("Heart Attack Symptoms")
-    image = Image.open("/content/190206-heart-attack-warning-signs-infographic-aha.webp")
+    image = Image.open("190206-heart-attack-warning-signs-infographic-aha.webp")
     st.image(image, caption="Your Image",use_container_width=True)
     
     st.write("""
