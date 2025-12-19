@@ -139,10 +139,10 @@ GEMINI_API_KEY = "AIzaSyDksYfC5E_CukbN7ajfwiFREQrrzI9p5-o"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Emergency Contact Details
-TWILIO_ACCOUNT_SID = "AC8e3795d546f72c37c9f619daa0755ce0"
-TWILIO_AUTH_TOKEN = "1887dcd36a846c4fd053ce742c520e50"
-TWILIO_PHONE_NUMBER = "+19788296514"  # Replace with Twilio number
-EMERGENCY_PHONE = " +918208697027"  # Replace with actual emergency contact number
+TWILIO_ACCOUNT_SID = st.secrets["TWILIO_ACCOUNT_SID"]
+TWILIO_AUTH_TOKEN = st.secrets["TWILIO_AUTH_TOKEN"]
+TWILIO_PHONE_NUMBER = st.secrets["TWILIO_PHONE_NUMBER"]
+EMERGENCY_PHONE = st.secrets["EMERGENCY_PHONE"]
 
  
 
